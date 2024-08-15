@@ -380,7 +380,7 @@ class AcroFormObject
             $g = 0;
         }
         if ($font === null) {
-            $font = new \ZendPdf\Resource\Font\Simple\Standard\TimesRoman();
+            $font = new \ZendPdf\Resource\Font\Simple\Standard\Helvetica();
         }
         return [$font, $size, $g];
     }
